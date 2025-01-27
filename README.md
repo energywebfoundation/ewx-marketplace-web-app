@@ -113,6 +113,12 @@ npm install
 
 7. Fill also the environment variables of the web app, `.env` template can be found [here](https://github.com/energywebfoundation/ewx-marketplace-web-app/blob/master/src/web/.env.template). Note the `VITE_` prefix.
 
+8. Run the project. While being on the `/src/web` folder, execute the following command
+
+```sh
+npm run dev
+```
+
 ### Environment variables
 | Name                                 | Sample Value                                                                                                 | Description                               |
 |--------------------------------------|--------------------------------------------------------------------------------------------------------------|-------------------------------------------|
@@ -152,7 +158,6 @@ npm install
 | WORKER_CARD_DATA_URL                 | https://marketplace-cdn.energyweb.org/remote-resources/worker-card/worker-card-data.json                     | Worker Card URL                           |
 | NOTIFICATIONS_DATA_URL               | https://marketplace-cdn.energyweb.org/remote-resources/notifications/notifications.json                      | Notifications URL                         |
 | BLACKLISTED_SOLUTION_GROUPS_DATA_URL | https://marketplace-cdn.energyweb.org/remote-resources/blacklisted-solutions/blacklisted-solutions-data.json | Blacklisted Solution Groups URL           |
-
 
 #### Run <a id="run"></a>
 
