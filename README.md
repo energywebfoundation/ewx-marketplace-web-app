@@ -58,7 +58,7 @@
 
 #### Overview
 
-The EWX Marketplace, a decentralized desktop application (dApp), serves as a comprehensive gateway to the dynamic EWX ecosystem. Our platform is designed to facilitate seamless interactions within the EWX, offering an intuitive interface for managing digital assets and engaging with decentralized services.
+The EWX Marketplace, a decentralized desktop application (dApp), serves as a comprehensive gateway to the dynamic EWX ecosystem. Our platform is designed to facilitate seamless interactions within the EWX, offering an intuitive interface for managing digital assets and engaging with decentralized services. This repo refers only to the web app, not to the desktop app.
 
 #### Key Features
 
@@ -82,10 +82,10 @@ To get a local copy up and running follow these simple example steps.
 1. Clone the repo
 
 ```sh
-git clone https://github.com/energywebfoundation/ew-marketplace.git
+git clone https://github.com/energywebfoundation/ewx-marketplace-web-app.git
 ```
 
-2. Open the application folder
+2. Open the web application folder
 
 ```sh
 cd ew-marketplace
@@ -98,6 +98,20 @@ npm install
 ```
 
 4. Fill the environment variables, `.env` template can be found [here](https://github.com/energywebfoundation/ew-marketplace/blob/develop/.env.template).
+
+5. Open the web application folder
+
+```sh
+cd src/web
+```
+
+6. Install NPM packages
+
+```sh
+npm install
+```
+
+7. Fill also the environment variables of the web app, `.env` template can be found [here](https://github.com/energywebfoundation/ewx-marketplace-web-app/blob/master/src/web/.env.template). Note the `VITE_` prefix.
 
 ### Environment variables
 | Name                                 | Sample Value                                                                                                 | Description                               |
