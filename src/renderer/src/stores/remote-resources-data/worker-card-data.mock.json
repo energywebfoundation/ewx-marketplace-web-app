@@ -1,0 +1,20 @@
+{
+  "small": {
+    "safc": "https://raw.githubusercontent.com/daniserrano7/static_files/master/worker-card/safc.png",
+    "maritime": "https://raw.githubusercontent.com/daniserrano7/static_files/master/worker-card/maritime.png",
+    "smartflow.beta": "https://raw.githubusercontent.com/daniserrano7/static_files/master/worker-card/smartflow.png",
+    "gp4btc": "https://raw.githubusercontent.com/daniserrano7/static_files/master/worker-card/gp4btc.png",
+    "gp4ev": "https://raw.githubusercontent.com/daniserrano7/static_files/master/worker-card/gp4ev.png",
+    "digitalspine": "https://raw.githubusercontent.com/daniserrano7/static_files/master/worker-card/digitalspine.png",
+    "digitalspine.y24q2": "https://raw.githubusercontent.com/daniserrano7/static_files/master/worker-card/digitalspine.png"
+  },
+  "large": {
+    "safc": "https://raw.githubusercontent.com/daniserrano7/static_files/master/worker-card/safc.png",
+    "maritime": "https://raw.githubusercontent.com/daniserrano7/static_files/master/worker-card/maritime.png",
+    "smartflow.beta": "https://raw.githubusercontent.com/daniserrano7/static_files/master/worker-card/smartflow.png",
+    "gp4btc": "https://raw.githubusercontent.com/daniserrano7/static_files/master/worker-card/gp4btc.png",
+    "gp4ev": "https://raw.githubusercontent.com/daniserrano7/static_files/master/worker-card/gp4ev.png",
+    "digitalspine": "https://raw.githubusercontent.com/daniserrano7/static_files/master/worker-card/digitalspine.png",
+    "digitalspine.y24q2": "https://raw.githubusercontent.com/daniserrano7/static_files/master/worker-card/digitalspine.png"
+  }
+}

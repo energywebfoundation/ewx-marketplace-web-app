@@ -1,0 +1,111 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  src: url('@ewf/assets/fonts/Sequel-Sans.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'BwGradualRegular';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 400;
+  src: url('@ewf/assets/fonts/BwGradual-Regular.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'BwGradualMedium';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 500;
+  src: url('@ewf/assets/fonts/BwGradual-Medium.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'BwGradualBold';
+  font-style: normal;
+  font-display: swap;
+  font-weight: bold;
+  src: url('@ewf/assets/fonts/BwGradual-Bold.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'BwGradualLight';
+  src: url('@ewf/assets/fonts/BwGradual-Light.otf') format('opentype');
+}
+@font-face {
+  font-family: 'Rajdhani';
+  src: url('@ewf/assets/fonts/Rajdhani.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'NotoColorEmoji';
+  src: url('@ewf/assets/fonts/NotoColorEmoji-Regular.ttf') format('truetype');
+}
+
+@layer base {
+  html {
+    @apply font-normal;
+    @apply bg-gray-90;
+    @apply text-base;
+    @apply text-font;
+
+    font-size: 16px;
+  }
+
+  body {
+    @apply overflow-x-auto;
+  }
+
+  h1 {
+    @apply text-2xl font-bold leading-[40px] tracking-[0.6px];
+  }
+
+  h2 {
+    @apply !text-xl font-bold leading-[32px] tracking-[0.48px];
+  }
+}
+
+html,
+body {
+  height: 100%;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+p {
+  font-family: 'BwGradualLight', sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+#storybook-root {
+  height: 100%;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+  background-color: transparent;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+  background-color: transparent;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  background-color: #4d4a51;
+}
+
+::-webkit-scrollbar-thumb:window-inactive {
+  background-color: #4d4a51;
+}

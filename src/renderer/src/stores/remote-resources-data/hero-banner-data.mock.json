@@ -1,0 +1,148 @@
+[
+  {
+    "href": "https://www.energyweb.org/energywebx",
+    "image": "/hero-banner/hero-case-study.png",
+    "title": [
+      {
+        "type": "text",
+        "value": "Energy Web X"
+      },
+      {
+        "type": "breakline"
+      },
+      {
+        "type": "gradient",
+        "value": "Case Study"
+      },
+      {
+        "type": "breakline"
+      },
+      {
+        "type": "text",
+        "value": "is now available"
+      }
+    ]
+  },
+  {
+    "href": "https://x.com/energywebx/status/1796586158912307517",
+    "image": "/hero-banner/hero-enterprises.png",
+    "title": [
+      {
+        "type": "text",
+        "value": "Enterprises and"
+      },
+      {
+        "type": "breakline"
+      },
+      {
+        "type": "gradient",
+        "value": "Energy Web X"
+      }
+    ],
+    "description": [
+      {
+        "type": "text",
+        "value": "Instantly deploy your solutions via"
+      },
+      {
+        "type": "breakline"
+      },
+      {
+        "type": "text",
+        "value": "the no-code environment trough"
+      },
+      {
+        "type": "breakline"
+      },
+      {
+        "type": "text",
+        "value": "SmartFlow.org"
+      }
+    ]
+  },
+  {
+    "href": "https://www.energywebx.com/",
+    "image": "/hero-banner/hero-enterprise-solutions.png",
+    "title": [
+      {
+        "type": "text",
+        "value": "Unleash Your"
+      },
+      {
+        "type": "breakline"
+      },
+      {
+        "type": "gradient",
+        "value": "Worker Node"
+      },
+      {
+        "type": "breakline"
+      },
+      {
+        "type": "text",
+        "value": "For Enterprise"
+      },
+      {
+        "type": "breakline"
+      },
+      {
+        "type": "text",
+        "value": "Solutions"
+      }
+    ]
+  },
+  {
+    "href": "https://www.energyweb.org/events",
+    "image": "/hero-banner/hero-dive-event.png",
+    "title": [
+      {
+        "type": "text",
+        "value": "Energy Web"
+      },
+      {
+        "type": "breakline"
+      },
+      {
+        "type": "gradient",
+        "value": "DIVE Event"
+      }
+    ],
+    "description": [
+      {
+        "type": "text",
+        "value": "Learn more about the Energy Web"
+      },
+      {
+        "type": "breakline"
+      },
+      {
+        "type": "text",
+        "value": "Ecosystem and Solutions"
+      }
+    ]
+  },
+  {
+    "href": "https://www.autogreencharge.com/",
+    "image": "/hero-banner/hero-auto-green-charge.png",
+    "title": [
+      {
+        "type": "text",
+        "value": "Apply for the"
+      },
+      {
+        "type": "breakline"
+      },
+      {
+        "type": "gradient",
+        "value": "AutoGreenCharge"
+      },
+      {
+        "type": "breakline"
+      },
+      {
+        "type": "text",
+        "value": "Beta Application"
+      }
+    ]
+  }
+]

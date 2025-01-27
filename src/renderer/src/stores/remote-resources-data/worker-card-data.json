@@ -1,0 +1,18 @@
+{
+  "small": {
+    "safc": "https://marketplace-dev-cdn.energyweb.org/remote-resources/worker-card/worker-card-safc.png",
+    "maritime": "https://marketplace-dev-cdn.energyweb.org/remote-resources/worker-card/worker-card-maritime.png",
+    "smartflow.beta": "https://marketplace-dev-cdn.energyweb.org/remote-resources/worker-card/worker-card-smartflow.png",
+    "gp4btc": "https://marketplace-dev-cdn.energyweb.org/remote-resources/worker-card/worker-card-gp4btc.png",
+    "gp4ev": "https://marketplace-dev-cdn.energyweb.org/remote-resources/worker-card/worker-card-gp4ev.png",
+    "digitalspine": "https://marketplace-dev-cdn.energyweb.org/remote-resources/worker-card/worker-card-digitalspine.png"
+  },
+  "large": {
+    "safc": "https://marketplace-dev-cdn.energyweb.org/remote-resources/worker-card/worker-card-safc.png",
+    "maritime": "https://marketplace-dev-cdn.energyweb.org/remote-resources/worker-card/worker-card-maritime.png",
+    "smartflow.beta": "https://marketplace-dev-cdn.energyweb.org/remote-resources/worker-card/worker-card-smartflow.png",
+    "gp4btc": "https://marketplace-dev-cdn.energyweb.org/remote-resources/worker-card/worker-card-gp4btc.png",
+    "gp4ev": "https://marketplace-dev-cdn.energyweb.org/remote-resources/worker-card/worker-card-gp4ev.png",
+    "digitalspine": "https://marketplace-dev-cdn.energyweb.org/remote-resources/worker-card/worker-card-digitalspine.png"
+  }
+}

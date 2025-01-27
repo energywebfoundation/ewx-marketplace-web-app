@@ -1,0 +1,181 @@
+<html>
+  <style>
+    body {
+      width: 100%;
+      height: 100%;
+      /* display: grid;
+      grid-template-columns: 1fr 1fr; */
+      display: flex;
+      gap: 76px;
+      margin: 0;
+      padding: 24px;
+      padding-left: 48px;
+      justify-content: center;
+      box-sizing: border-box;
+      color: #dddcdd;
+      background: #16141a;
+      font-family: BwGradualRegular;
+    }
+
+    h1 {
+      font-family: BwGradualBold;
+      font-size: 40px;
+      margin: 0;
+    }
+
+    button {
+      font-family: BwGradualRegular;
+    }
+
+    button:hover {
+      cursor: pointer;
+      box-shadow: 0px 0px 16px 0px #612cc6;
+    }
+
+    button:focus {
+      background-color: #b37eff;
+      box-shadow: 0px 0px 16px 0px #1782ff;
+    }
+
+    button:active {
+      box-shadow: 0px 0px 16px 0px #000 inset;
+    }
+
+    a {
+      color: #15e8ff;
+    }
+
+    .text-gradient {
+      width: fit-content;
+      background: -webkit-linear-gradient(45deg, #a566ff, #15e8ff);
+      -webkit-background-clip: text;
+      background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+
+    p {
+      font-family: BwGradualRegular;
+      color: #dddcdd;
+      font-size: 16px;
+      margin: 0;
+    }
+
+    @media screen and (max-width: 768px) {
+      body {
+        padding: 0;
+      }
+    }
+
+    @font-face {
+      font-family: 'BwGradualBold';
+      font-style: normal;
+      font-display: swap;
+      font-weight: bold;
+      src: url('./BwGradual-Bold.woff2') format('woff2');
+    }
+
+    @font-face {
+      font-family: 'BwGradualRegular';
+      font-style: normal;
+      font-display: swap;
+      font-weight: 400;
+      src: url('./BwGradual-Regular.woff2') format('woff2');
+    }
+  </style>
+
+  <body>
+    <div style="display: flex; flex-direction: column; height: 100%">
+      <div style="margin-bottom: 40px">
+        <img src="./ewx-full.svg" alt="EWX" width="110" height="37" />
+      </div>
+      <h1 style="margin-bottom: 12px" class="text-gradient">Energy Web X</h1>
+      <h1 style="margin-bottom: 20px">Cannot Connect</h1>
+      <p style="margin-bottom: 36px; font-weight: 400">
+        Connection to EWX is either blocked or has reached its rate limit. Please try again later.
+      </p>
+      <button
+        onclick="restartApp()"
+        style="
+          margin-bottom: 12px;
+          border-radius: 999px;
+          background-color: #a566ff;
+          padding: 16px;
+          border: none;
+          width: 278px;
+          color: white;
+        "
+      >
+        Close The App Now
+      </button>
+      <div style="flex-grow: 1"></div>
+      <div
+        style="
+          border-radius: 40px;
+          padding: 2px;
+          background: linear-gradient(
+            104.59deg,
+            rgba(255, 255, 255, 0.3) 0.76%,
+            rgba(255, 255, 255, 0.0768416) 32.78%,
+            rgba(255, 255, 255, 0.220526) 69.11%,
+            rgba(255, 255, 255, 0.021) 99%
+          );
+        "
+      >
+        <div style="background-color: #16141a; border-radius: 38px">
+          <div
+            style="
+              padding: 32px;
+              border-radius: 38px;
+              background: radial-gradient(
+                117.2% 352.94% at 3.21% 1.26%,
+                rgba(255, 255, 255, 0.07) 0%,
+                rgba(217, 217, 217, 0) 100%
+              );
+            "
+          >
+            <p style="margin-bottom: 28px"><b>Other things to try:</b></p>
+            <div style="display: flex; gap: 24px; align-items: center; margin-bottom: 16px">
+              <div
+                style="
+                  height: 40px;
+                  min-width: 40px;
+                  border-radius: 999px;
+                  display: grid;
+                  place-items: center;
+                  background: linear-gradient(to right, #a566ff, #15e8ff, #4b00a8) border-box;
+                "
+              >
+                <div
+                  style="
+                    width: 26px;
+                    height: 26px;
+                    background-color: #16141a;
+                    display: grid;
+                    place-items: center;
+                    border-radius: 999px;
+                    font-family: BwGradualBold;
+                  "
+                >
+                  1
+                </div>
+              </div>
+              <p style="font-size: 14px">
+                If you're still unable to connect to the EWX Marketplace, please reach out to our
+                <a href="https://discord.gg/psraNwqGqp" target="_blank">help center on Discord</a>
+                for further assistance.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div style="display: flex; justify-content: center">
+      <img src="./no-internet.svg" alt="No internet" width="auto" height="100%" />
+    </div>
+  </body>
+  <script>
+    function restartApp() {
+      window.Api.invoke(window.Api.IpcChannel.closeApp);
+    }
+  </script>
+</html>

@@ -1,0 +1,54 @@
+{
+  "include": [
+    "../../tailwind.config.js",
+    "../main/**/*",
+    "../main/**/*.ts",
+    "../renderer/src/**/*",
+    "../renderer/src/**/*.tsx",
+    "../types/**/*",
+    "../types/**/*.ts",
+    "ui/**/*",
+    "ui/**/*.tsx"
+  ],
+  "exclude": [
+    "node_modules",
+    "../../node_modules"
+  ],
+  "compilerOptions": {
+    "module": "esnext",
+    "target": "esnext",
+    "moduleResolution": "Node",
+    "noUnusedLocals": false,
+    "noUnusedParameters": false,
+    "noImplicitReturns": false,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "resolveJsonModule": true,
+    "downlevelIteration": true,
+    "baseUrl": ".",
+    "outDir": "../../dist/web",
+    "jsx": "react-jsx",
+    "paths": {
+      "@ewf/*": [
+        "../renderer/src/*"
+      ],
+      "@main/*": [
+        "../main/*"
+      ],
+      "@ewf/types/*": [
+        "../types/*"
+      ]
+    },
+    "lib": [
+      "esnext"
+    ]
+  },
+  "ts-node": {
+    "esm": true,
+    "experimentalSpecifierResolution": "node",
+    "transpileOnly": true,
+    "require": [
+      "tsconfig-paths/register"
+    ]
+  }
+}
