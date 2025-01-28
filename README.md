@@ -5,10 +5,10 @@
     <img src="/images/ewx-logo.png" alt="Logo" width="160" height="160">
   </a>
 
-  <h3 align="center">EWX Marketplace</h3>
+  <h3 align="center">EWX Marketplace Web App</h3>
 
   <p align="center">
-    A desktop dApp to access everything happens on the EWX ecosystem
+    The web app version of EWX Marketplace desktop dApp which provides access to everything on the EWX ecosystem
     <br />
     <br />
     <a href="https://energywebx.com/download">Download</a>
@@ -58,13 +58,13 @@
 
 #### Overview
 
-The EWX Marketplace, a decentralized desktop application (dApp), serves as a comprehensive gateway to the dynamic EWX ecosystem. Our platform is designed to facilitate seamless interactions within the EWX, offering an intuitive interface for managing digital assets and engaging with decentralized services. This repo refers only to the web app, not to the desktop app.
+The EWX Marketplace Web App is the web version of the decentralized desktop application (dApp). It serves as a comprehensive gateway to the dynamic EWX ecosystem. Our platform is designed to facilitate seamless interactions within the EWX, offering an intuitive interface for managing digital assets and engaging with decentralized services. This has all the features available on the desktop application minus the ability to run workers on the device.
 
 #### Key Features
 
 - **EWT Bridge (Lifting & Lowering):** Our dApp provides a robust interface for efficient EWT transfers between chains in our ecosystem - the Energy Web Chain (EWC) and EWX. This feature simplifies the process of asset migration, ensuring a smooth user experience.
 - **Galaxy Subscriptions (Solution Groups):** Engage directly with worker node networks through our unique subscription model. Users can participate in decentralization efforts, run worker node flows included in the solution groups, and earn rewards for their contributions.
-- **Worker Node Management:** We offer a suite of tools allowing users to manage their subscribed Galaxy Subscriptions effectively. These include options to unsubscribe, start/stop worker node flows, claim rewards, and view reward history.
+- **Worker Node Management:** We offer a suite of tools allowing users to manage their subscribed Galaxy Subscriptions effectively. These include options to unsubscribe, monitor and claim rewards, and view reward history.
 - **User-Friendly Interface:** We prioritize user experience, ensuring our platform is accessible to both novices and experienced users in the blockchain space.
 - **Advanced Security Measures:** Security is a cornerstone of our application, implemented through cutting-edge protocols to safeguard user data and transactions.
 
