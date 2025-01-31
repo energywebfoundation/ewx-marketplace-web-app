@@ -38,7 +38,7 @@
     "@urql/core": "^5.0.8",
     "@walletconnect/encoding": "^1.0.2",
     "@walletconnect/modal": "^2.6.2",
-    "@walletconnect/sign-client": "^2.13.3",
+    "@walletconnect/sign-client": "^2.17.3",
     "archiver": "^6.0.1",
     "axios": "^1.5.1",
     "bn.js": "^5.2.1",
