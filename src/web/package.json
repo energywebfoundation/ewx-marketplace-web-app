@@ -69,7 +69,7 @@
     "tailwindcss-radix-ui": "^0.0.4",
     "tw-elements-react": "^1.0.0-alpha2",
     "uuid": "^9.0.0",
-    "web3": "^1.5.2",
+    "web3": "^4.2.0",
     "winston": "^3.11.0",
     "ws": "^8.13.0"
   },
