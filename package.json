@@ -171,7 +171,7 @@
     "prisma": "^5.20.0",
     "react-icons": "^4.10.1",
     "react-router-dom": "^6.17.0",
-    "recharts": "^2.9.3",
+    "recharts": "^3.0.0",
     "semver": "^7.6.3",
     "systeminformation": "^5.18.15",
     "tailwind-merge": "^1.14.0",
