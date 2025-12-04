@@ -164,7 +164,7 @@
     "luxon": "^3.3.0",
     "match-sorter": "^6.3.1",
     "mutexify": "^1.4.0",
-    "node-red": "^3.1.11",
+    "node-red": "^4.1.2",
     "node-schedule": "^2.1.1",
     "npm": "^10.2.3",
     "pacote": "^18.0.6",
