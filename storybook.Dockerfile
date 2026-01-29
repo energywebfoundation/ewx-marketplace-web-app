@@ -16,7 +16,7 @@ COPY . .
 RUN npm run build-storybook
 
 # Runner stage
-FROM nginx:alpine as runner
+FROM nginx:1.29.4-alpine3.23 as runner
 
 WORKDIR /usr/app
 
